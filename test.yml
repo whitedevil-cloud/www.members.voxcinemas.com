@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: "0.0.1"
   title: Example Title
-  description: <img src=x onerror="alert('XSS')">
+  description: <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/You_Have_Been_Hacked%21.jpg" onerror="alert('XSS')">
 paths:
   /:
     get:
